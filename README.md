@@ -38,7 +38,7 @@ Before setting up the pipeline, ensure you have the following installed and conf
    - Docker image is built using the Dockerfile in the repository.
    
 4. **Push Image to Registry**:
-   - After building the Docker image, it is pushed to a container registry (e.g., Docker Hub, AWS ECR, Google Container Registry).
+   - After building the Docker image, it is pushed to a container registry Docker Hub.
    
 5. **Deploy to Kubernetes**:
    - Jenkins uses `kubectl` to deploy the newly built Docker image to the Kubernetes cluster.
