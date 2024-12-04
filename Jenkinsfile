@@ -28,7 +28,7 @@ pipeline {
 
         stage('Deploy Application on Kubernetes') {
             steps {
-                kubernetesDeploy (configs: 'nodejsapp.yaml',kubeconfigId: 'k8sconfigpwd')
+                kubernetesDeploy (configs: 'nodejsapp.yaml',kubeconfigId: 'k8sconfigpwd') // k8sconfigpwd is config file 
             }
         }
     }
