@@ -13,7 +13,7 @@ Before setting up the pipeline, ensure you have the following installed and conf
 - **Kubernetes (K8s)**: Container orchestration platform for managing applications.
 - **kubectl**: Command-line tool to interact with Kubernetes clusters.
 - **Docker**: For building and managing container images.
-- **GitHub/GitLab**: Repository hosting service (or any other version control system).
+- **GitHub**: Repository hosting service .
 - **Jenkins Plugins**:
   - Kubernetes Plugin
   - GitHub Integration Plugin
